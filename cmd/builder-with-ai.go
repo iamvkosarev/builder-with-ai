@@ -7,5 +7,5 @@ import (
 
 func main() {
 	config := cfg.MustLoad()
-	fmt.Println(config.RepositoryDir)
+	fmt.Println(config.CloneRepositoryDir)
 }

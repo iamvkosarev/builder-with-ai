@@ -10,7 +10,7 @@ import (
 const configPathEnvKey = "BUILDER_WITH_AI_CONFIG"
 
 type Config struct {
-	RepositoryDir string `json:"repository_dir"`
+	CloneRepositoryDir string `json:"clone_repository_dir"`
 }
 
 func MustLoad() *Config {
